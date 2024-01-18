@@ -86,7 +86,7 @@ export default function Home() {
         className="inputField"
         type="text"
         value={message}
-        placeholder="Message:"
+        placeholder="Message: "
         onChange={(e) => setMessage(e.target.value)}
       />
       <button className="sendMessageButton" onClick={sendMessageToEngineering}>
