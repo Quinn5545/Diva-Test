@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.checkServerStatusButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.inputField {
+  margin: 10px;
+  padding: 5px;
+}
+
+.sendMessageButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.status {
+  margin-top: 10px;
+}
